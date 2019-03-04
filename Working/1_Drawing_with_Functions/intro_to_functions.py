@@ -26,7 +26,12 @@ def draw_rolling_hills():
     arcade.draw_circle_filled(800, 80, 150, arcade.color.ANDROID_GREEN)
 
 
-
+def draw_tree():
+    """ draw tree """
+    arcade.draw_lrtb_rectangle_filled(400, 500, 400, 50, arcade.color.DARK_BROWN)
+    arcade.draw_triangle_filled(450, 550, 300, 300, 599, 300, arcade.color.BRUNSWICK_GREEN)
+    arcade.draw_triangle_filled(387.5, 400, 275, 175, 637.5, 175, arcade.color.BRUNSWICK_GREEN)
+    arcade.draw_triangle_filled(512.5, 400, 275, 175, 637.5, 175, arcade.color.BRUNSWICK_GREEN)
 
 
 
@@ -43,6 +48,7 @@ def main():
 
     draw_cloud()
     draw_rolling_hills()
+    draw_tree()
 
 
 
