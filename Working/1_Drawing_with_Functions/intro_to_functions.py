@@ -52,9 +52,6 @@ def main():
 
 
 
-
-
-
     # Finish and run
     arcade.finish_render()
     arcade.run()
